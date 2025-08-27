@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hope for All — Empowering Lives</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" href="../assets/images/logo.jpg" type="image/jpeg">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+   <a class="brand" href="#hero">
+  <img src="../assets/images/logo.JPG" alt="Hope for All Logo" class="logo" />
+  <span class="brand-name">Hope for All</span>
+</a>
+
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Our Work</a>
+      <a href="#donate">Get Involved</a>
+    </nav>
+
+    <a class="btn btn-primary" href="#donate">Donate Now</a>
+    <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+
+<section id="hero" class="hero section">
+  <div class="container hero-content animate slide-up">
+    <h1>Hope for All</h1>
+    <p class="tag">Empowering Lives Through Education and Support</p>
+    <div class="cta-row">
+      <a href="#donate" class="btn btn-primary large">Donate Now</a>
+      <a href="#work" class="btn btn-outline">See Our Work</a>
+    </div>
+    <p class="hero-note">Small donations &amp; time change futures — join us.</p>
+  </div>
+</section>
+
+
+<section id="about" class="section about-section">
+  <div class="container">
+  
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about-grid">
+      <div>
+        <p>
+          Hope for All supports child education and women's empowerment through community programs, skill training, and micro-support. We build programs that help people learn, earn, and lead.
+        </p>
+        <ul class="quick-list">
+          <li>Scholarships & resources for children</li>
+          <li>Workshops & mentorship for women</li>
+          <li>Vocational & digital skills training</li>
+        </ul>
+      </div>
+
+      <div class="about-media">
+        <img src="../assets/images/community.png" alt="Children learning">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="work" class="section work-section">
+    <div class="container">
+      <h2 class="section-title">Our Work</h2>
+     <div class="cards-grid">
+  <article class="card " style="background-image:url('../assets/images/child education.jpg');">
+    <h3>Child Education</h3>
+    <p>Books, tuition support and after-school programs for children.</p>
+  </article>
+
+  <article class="card" style="background-image:url('../assets/images/woman empower.png');">
+    <h3>Women Empowerment</h3>
+    <p>Workshops, mentorship and small grants to empower women.</p>
+  </article>
+
+  <article class="card " style="background-image:url('../assets/images/skill training.png');">
+    <h3>Skill Training</h3>
+    <p>Hands-on digital & vocational training for employability.</p>
+  </article>
+</div>
+
+    </div>
+  </section>
+
+
+<section id="donate" class="section donate-section">
+  <div class="container">
+   
+    <h2 class="section-title">Get Involved</h2>
+
+    <div class="donate-grid">
+   
+      <div class="donate-info">
+        <div class="donate-text">
+          <p>Volunteer your time, support a child, or donate to fund training sessions. Your action makes measurable impact.</p>
+          <ol class="how-list">
+            <li>Volunteer locally — teach or mentor</li>
+            <li>Donate to scholarship funds</li>
+            <li>Sponsor a training batch</li>
+          </ol>
+        </div>
+      </div>
+
+ 
+      <form id="donationForm" class="donate-form" aria-label="Donation form">
+        <label>Full Name
+          <input name="name" type="text" placeholder="Your full name" required>
+        </label>
+
+        <label>Email
+          <input name="email" type="email" placeholder="you@example.com" required>
+        </label>
+
+        <label>Mobile Number
+          <input name="mobile" type="tel" placeholder="9872564568" pattern="[0-9]{10}" required>
+        </label>
+
+        <label>I want to
+          <select name="mode" required>
+            <option value="donate">Donate</option>
+            <option value="volunteer">Volunteer</option>
+          </select>
+        </label>
+
+        <label>Amount (INR)
+          <input name="amount" type="number" min="100" placeholder="500" required>
+        </label>
+        
+        <button type="submit" class="btn btn-primary full">Submit</button>
+        <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+  
+ <footer class="footer">
+  <div class="container footer-grid">
+
+     <div class="f-col">
+   <img src="../assets/images/logo.jpg" alt="" width="150">
+    </div>
+
+
+    <div class="f-col">
+      <h4>Our Focus</h4>
+      <a href="#work">Child Education</a>
+      <a href="#work">Women Empowerment</a>
+      <a href="#work">Skill Training</a>
+    </div>
+
+    <div class="f-col">
+      <h4>Contact</h4>
+      <div>hopeforall@gmail.com</div>
+      <div>+91 9619985405</div>
+      <div>+91 9758124867</div>
+    </div>
+
+   <div class="f-col">
+  <h4>Follow</h4>
+  <div class="socials">
+    <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+      <i class='bx bxl-facebook'></i>
+    </a>
+    <a href="https://x.com/" target="_blank" aria-label="Twitter">
+      <i class='bx bxl-twitter'></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+      <i class='bx bxl-instagram'></i>
+    </a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="container copyright">
+    © 2025 Hope for All. All Rights Reserved.
+  </div>
+</footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
