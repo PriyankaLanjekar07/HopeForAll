@@ -47,7 +47,7 @@ Dropdown: Volunteer or Donate
 
 Amount field (disabled for volunteer option)
 
-Submit button (non-functional, UI only)
+Submit button (full functional not just UI)
 
 5. Footer
 
@@ -73,10 +73,4 @@ Hover effects on buttons and cards
 
 Google Fonts used for typography
 
-Deliverables
-
 Source Code: HTML, CSS, JS files
-
-Optional: Live preview via Netlify or GitHub Pages
-
-Recommended to share as a ZIP file or GitHub repository
